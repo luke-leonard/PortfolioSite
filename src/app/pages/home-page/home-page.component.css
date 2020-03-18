@@ -1,0 +1,69 @@
+.profile-section{
+  position: relative;
+  height:100vh;
+  scroll-snap-align: start;
+}
+
+.scroll-container{
+  position: fixed;
+  height:100vh;
+  width: 100vw;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+/* #home-section{
+  background-image: linear-gradient(to bottom ,rgb(11, 0, 158),rgb(37, 248, 255));
+
+} */
+#home-section h1{
+  position: absolute;
+  color: #c5c6c7;
+  bottom: 50vh;
+  width:100%;
+  text-align: center;
+  text-shadow: 2px 2px #1f2833, -2px 2px #1f2833,-2px -2px #1f2833,2px -2px #1f2833;
+  font-size: 100px;
+}
+#about-section-bg{
+  height:100vh;
+  background-color: #ffffffaa;
+  transform: skew(30deg);
+  position: relative;
+  transition:.5s;
+
+
+}
+.unskew{
+  transform: skew(-30deg);
+}
+.about-con{
+  position: relative;
+  background-color: #e9e9e9;
+  top:10vh;
+  left:60vw;
+  width: 60vw;
+  height: 80vh;
+ /* box-shadow: 10px 10px #0d00c2, 20px 20px #1251ff, 30px 30px #26f1ff; */
+
+}
+#about-con-1{
+  top:10vh;
+}
+#about-con-1 p{
+  margin: 20px;
+  padding: 20px;
+}
+
+.pre-slide{
+  left:-50vw;
+}
+.slide{
+  left:-50vw;
+}
+/* #contact-section{
+
+}
+#projects-section{
+
+} */

@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { TopnavComponent } from './pages/subpages/topnav/topnav.component';
+import { VisualizerComponent } from './pages/subpages/visualizer/visualizer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomePageComponent,
+    TopnavComponent,
+    VisualizerComponent
   ],
   imports: [
     BrowserModule,

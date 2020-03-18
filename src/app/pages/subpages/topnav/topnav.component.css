@@ -1,0 +1,31 @@
+nav{
+  position: fixed;
+  top:0;
+  right: 0;
+  left: 0;
+  height: 70px;
+  list-style: none;
+  z-index: 10;
+
+}
+nav li {
+  color: aliceblue;
+  text-align: center;
+  height: 100%;
+  font-size: 35px;
+  line-height: 70px;
+}
+.fade-in{
+  background-image:linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,.8));
+  animation: nav-bar 1s 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes nav-bar{
+  from{
+    opacity: 0%;
+  }
+  to{
+    opacity: 100%;
+  }
+}
